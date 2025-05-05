@@ -1,0 +1,137 @@
+/* Reseteo de márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Formulario de creación de posts */
+form {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+/* Estilo para el botón */
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Sección de Posts */
+h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin: 50px 0 20px;
+}
+
+#postsContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilos para cada post */
+.post {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.post p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+/* Ajuste de las imágenes */
+.post img {
+    width: 100%;  /* Asegura que la imagen ocupe todo el ancho disponible */
+    max-width: 600px; /* Limita el ancho máximo de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    object-fit: cover; /* Ajusta la imagen para que cubra el contenedor sin distorsionarse */
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Asegura que la imagen no se salga del contenedor */
+.post img {
+    max-height: 400px; /* Limita la altura máxima de las imágenes */
+}
+
+/* Pequeños detalles del post */
+.post small {
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Estilos para el contenedor de las imágenes */
+img {
+    display: block;
+    margin: 0 auto;
+}
