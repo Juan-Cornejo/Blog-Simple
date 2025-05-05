@@ -1,0 +1,6 @@
+Use Chatgpt con el siguiente Prompt:
+Necesito un miniblog donde se utilizara html, javascript, css, php, mysql con xampp, 
+Necesito poder crear un post y ver los post creados, no es necesario ningun login, 
+es un blog simple, el post tiene que tener Titulo, Contenido y una imagen. 
+Los archivos del proyecto tienen que estar ordenados de la siguiente manera: 
+create.php, db.php, index.html, posts.php, save_post.php, script.js, styles.css.  
